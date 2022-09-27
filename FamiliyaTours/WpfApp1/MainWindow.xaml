@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Туристическое агенство" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
@@ -15,12 +15,12 @@
         <Grid Background="#bae3e8"></Grid>
         <Image Source="resources/logo.png" HorizontalAlignment="Left"></Image>
 
-        <TextBlock Text="Header" FontSize="30" HorizontalAlignment="Center"
+        <TextBlock Text="Туристическое агенство" FontSize="30" HorizontalAlignment="Center"
 		        VerticalAlignment="Center"></TextBlock>
         <Grid Grid.Row="2" Background="#445c93"></Grid>
 
         <Frame NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame"></Frame>
 
-        <Button Content="Back" Name="BtnBack" HorizontalAlignment="Right" Click="BtnBack_Click"></Button>
+        <Button Content="Назад" Name="BtnBack" HorizontalAlignment="Right" Click="BtnBack_Click"></Button>
     </Grid>
 </Window>
