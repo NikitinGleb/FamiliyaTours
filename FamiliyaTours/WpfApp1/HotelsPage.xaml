@@ -9,7 +9,7 @@
       Title="HotelsPage">
 
     <Grid>
-        <Button Content="Вперёд!" Click="Button_Click">
+        <Button Content="GO!" Click="Button_Click">
         </Button>
         
     </Grid>
